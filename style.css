@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 20%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 55px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navb a{
+    font-size: 35px;
+    color: #12078f;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 45px;
+    transition: .4s;
+}
+.navb a:hover,
+.navb a.active{
+    color: #f30af7;
+}
+
+
+.home{
+    height: 100vh;
+    background: linear-gradient(-90deg, aqua 65%, #fff 35%);
+    display: flex;
+    align-items: center;
+    padding: 0 16%;
+    justify-content: space-between;
+}
+.home-img {
+    width: 650px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+    border: 25px solid #fff;
+    background: aqua;
+    outline: 25px solid aqua;
+}
+.home-img img{
+    position: relative;
+    max-width: 380px;
+}
+.home-content {
+    max-width: 600px;
+    color: rgb(2, 0, 6);
+    text-align: right;
+}
+.home-content h1 {
+    font-size: 55px;
+    line-height: 1.2;
+}
+.home-content h3 {
+    font-size: 55px;
+    color: #f30af7 ;
+    -webkit-text-stroke: .8px #fff;
+}
+.home-content p {
+    font-size: 25px;
+    margin-top: 20px;
+}
+.home-ico {
+    margin: 30px 0 45px;
+}
+.home-ico a{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    align-items: center;
+    color: #12078f;
+    background: transparent;
+    border: 3px solid #12078f;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+
+.btn{
+    padding: 17px 65px;
+    background: #12078f;
+    border-radius: 40px;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 1px;
+    box-shadow: 0 0 10px #12078f;
+    font-weight: 600;
+    transition: .5s;
+    text-decoration: none;
+}
+.btn:hover{
+    box-shadow: none;
+}
